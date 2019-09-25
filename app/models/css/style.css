@@ -1,0 +1,72 @@
+
+/*GENERAL STYLE*/
+body{
+  font-family: 'Slabo 27px', serif;
+}
+
+p{
+  font-size: 15px;
+
+}
+/*navbar style*/
+.navbar{
+  border-bottom: black 2px solid;
+}
+
+
+/*eger baskın bir kod ile karşılaşırsan  !important; yazabilirsin */
+.navbar .navbar-brand{
+  color: black;
+}
+
+.nav-link{
+  transition: color .3s ease;
+}
+
+.nav-link:hover{
+  color: white !important;
+
+}
+
+#headerSection{
+  background: url('../images/bilgisayar.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#headerSection .overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#headerSection .row{
+  height: 100vh;
+}
+
+.btn-outline-primary{
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+
+}
+
+#features .fas{
+  font-size: 40px;
+}
+
+.feature-top{
+  transition: color .7s ease;
+}
+
+
+.feature-top:hover{
+  color: #0D72FF;
+  cursor: pointer;
+}
+
+#carousel{
+position: relative;
+width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}

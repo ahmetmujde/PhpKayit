@@ -1,0 +1,140 @@
+
+/*GENERAL STYLE*/
+body{
+  font-family: 'Slabo 27px', serif;
+}
+
+label{
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+
+/*navnbar style*/
+.navbar{
+  border-bottom: black 2px solid;
+}
+
+.navbar .navbar-brand{
+  color: black;
+}
+
+.nav-link{
+  transition: color .3s ease;
+}
+
+.nav-link:hover{
+  color: white !important;
+
+}
+
+
+.btn-outline-primary{
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+
+}
+
+.btn-outline-success{
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+
+}
+
+
+
+ /* GİRİS YAP VE OYE OL SAYFASI CSS KODLARI */
+ .singup{
+    display: block;
+    background-color: #476F80;
+    border-radius: 9px;
+    padding: 4px 10px;
+    height: 35px;
+    width: 120px;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.singup:hover{
+text-decoration: none;
+color: #A1FFA4 ;
+background-color: #25B32A;
+  box-shadow: 5px 10px 15px rgba(84, 255, 77, 0.5);
+}
+
+.geridön{
+  display: block;
+  background-color: #476F80;
+  border-radius: 9px;
+  padding: 4px 10px;
+  height: 35px;
+  width: 120px;
+  color: white;
+  border-style: none;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.geridön:hover{
+text-decoration: none;
+color: #476F80 ;
+background-color: black;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.container-login{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFFFFF;
+  color: #666666;
+  width: 550px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.26);
+  animation: show 1.5s;
+}
+
+.content{
+    padding: 20px 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+.values{
+      width: 100%;
+      margin-bottom: 0px;
+      margin-top: 0px;
+  }
+
+input{
+        clear: both;
+        display: block;
+        width: 100%;
+        margin: 20px 0px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #E8E9EC;
+        color: #666666;
+}
+
+
+@keyframes show{
+  0%{
+    transform: perspective(5000px) translateZ(-900px) rotate3d(0.9, 0, 0, -90deg) scale(1);
+  }
+  85%{
+    transform: perspective(5000px) translateZ(0px) rotate3d(0.9, 0, 0, 0deg) scale(1.05);
+  }
+  100%{
+    transform: perspective(5000px) translateZ(0px) rotate3d(0.9, 0, 0, 0deg) scale(1);
+  }
+}
